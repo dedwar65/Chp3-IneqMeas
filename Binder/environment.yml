@@ -1,0 +1,17 @@
+name: hetret
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - requests
+  - pandas
+  - jupyter
+  - matplotlib
+  - scipy
+  - numpy
+  - numba
+  - seaborn
+  - pip
+  - pip:
+      - git+https://github.com/econ-ark/HARK@master

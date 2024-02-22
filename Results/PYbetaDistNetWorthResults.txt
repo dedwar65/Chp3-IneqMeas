@@ -1,0 +1,7 @@
+Estimate is center=0.9885447104477947, spread=0.001
+Lorenz distance is  message: The algorithm terminated without finding a valid bracket. Consider trying different initial points.
+ success: False
+     fun: 0.13597663479584549
+       x: 0.001
+     nit: 0
+    nfev: 3

@@ -1,0 +1,2 @@
+Estimate is center=0.9885447104477947, spread=0.0
+Lorenz distance is 0.13597663479584549

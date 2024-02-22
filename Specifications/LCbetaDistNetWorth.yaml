@@ -1,0 +1,17 @@
+tag: LCbetaDistNetWorth
+description: lifecycle discount factor estimation with no heterogeneity
+HetParam: DiscFac
+DstnType: Uniform
+HetTypeCount: 7
+LifeCycle: True
+AgentsPerType: 10000
+center_range: [0.70, 1.05]
+spread_range: [0.001, 0.05]
+TargetPercentiles: [0.2, 0.4, 0.6, 0.8]
+wealth_data_file: rscfp2004_reduced.txt
+wealth_col: 4
+weight_col: 0
+income_col: 1
+base_param_filename: LifecycleDict
+mort_data_file: EducMortAdj.txt
+model: Dist

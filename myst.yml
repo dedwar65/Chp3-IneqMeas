@@ -1,0 +1,45 @@
+version: 1
+site:
+  template: book-theme
+  # title:
+  # options:
+  #   logo: site_logo.png
+  nav: []
+  actions:
+    - title: Learn More
+      url: https://mystmd.org/guide
+  domains: []
+project:
+  title:  
+  # description:
+  short_title: 
+  keywords: []
+  affiliations:
+    - id: jhu
+      institution: Johns Hopkins University
+      department: Department of Economics
+      url: https://econ.jhu.edu
+    - id: econ-ark
+      institution: Econ-ARK
+      url: https://econ-ark.org
+  authors: 
+      - name: Decory Edwards
+        corresponding: true
+        email: dedwar65@jhu.edu
+        affiliations: jhu
+        github: dedwar65
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  github: https://github.com/dedwar65/Chp1-HetReturns
+  bibliography: Paper/references.bib
+  settings:
+    output_matplotlib_strings: remove
+  exports: 
+    - format: pdf
+      template: arxiv_nips
+      output: 
+      article: 
+
+    
